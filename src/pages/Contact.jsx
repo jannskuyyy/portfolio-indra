@@ -2,11 +2,12 @@ import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
   return (
     <>
-      <section id="Contact" className="pt-20 bg-gray-900 text-third px-10">
+      <section id="Contact" className="py-24 bg-gray-900 text-third px-10">
         <div className="container">
           <div className="flex justify-center flex-wrap">
             <div className="w-full flex px-4 mb-7 justify-center">
@@ -23,6 +24,9 @@ const Contact = () => {
               </a>
               <a href="www.linkedin.com/in/indraalvine" className="">
                 <BsLinkedin />
+              </a>
+              <a href="indraalvine@gmail.com" className="">
+                <SiGmail />
               </a>
             </div>
           </div>

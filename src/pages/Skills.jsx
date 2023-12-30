@@ -6,12 +6,11 @@ import { IoLogoReact } from "react-icons/io5";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
-import AOS from "aos";
 
 const Skills = () => {
   return (
     <>
-      <section className="bg-gray-900 text-secondary px-10 pt-10">
+      <section className="bg-gray-900 text-secondary px-10 pt-24">
         <div className="container">
           <div className="flex flex-wrap justify-center">
             <div className="text-3xl w-full flex px-4 mb-7 justify-center">

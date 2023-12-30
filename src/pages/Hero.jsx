@@ -1,15 +1,14 @@
 import React from "react";
-import Aos from "aos";
 
 const Hero = () => {
   return (
     <>
       <section id="Home" className="pt-20 px-10 bg-gray-900">
-        <div className="container flex justify-center">
-          <div className="flex">
-            <div className="w-full self-center px-4">
+        <div className="container flex">
+          <div className="w-full px-4 flex justify-center">
+            <div className="w-1/2 px-5">
               <h1
-                className="text-secondary font-bold md:text-xl"
+                className="text-secondary font-bold md:text-xl pt-18"
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
@@ -19,12 +18,16 @@ const Hero = () => {
                   Indra Alvine
                 </span>
               </h1>
-              <h2 className="font-medium text-secondary text-lg mb-3 lg:text-2xl">
+            </div>
+            <div className="w-1/2 pl-14 right-0">
+              <h2 className="font-medium text-lg mb-3 pt-18 lg:text-4xl text-third">
                 Fullstack developer &{" "}
-                <span className="text-dark">Tech Enthusiast</span>
+                <span className="text-dark gap-3">Tech Enthusiast</span>
               </h2>
-              <p className="font-medium text-secondary mb-10 leading-relaxed">
-                I'm a web programmer who loves games and foods
+              <p className="font-medium text-secondary pb-12 lg:text-xl">
+                A web developer with 2 years sales and marketing experience who
+                loves games, foods, and currently writting codes to have fun and
+                looking forward to work in tech industries
               </p>
             </div>
           </div>

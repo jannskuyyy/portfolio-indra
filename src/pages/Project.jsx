@@ -1,10 +1,9 @@
 import React from "react";
-import AOS from "aos";
 
 const Project = () => {
   return (
     <>
-      <section id="Project" className="pt-36 pb-16 bg-gray-900 text-secondary">
+      <section id="Project" className="pt-40 pb-16 bg-gray-900 text-secondary">
         <div className="container">
           <div
             className="w-full px-4"
@@ -68,7 +67,53 @@ const Project = () => {
               <ol>
                 <li>Creating CRUD API</li>
                 <li>Creating databse with Mysql</li>
-                <li>Creating frontend with react</li>
+                <li>Creating frontend with React</li>
+              </ol>
+            </div>
+
+            <div className="mb-12 px-4 md:w-1/2 justify-center">
+              <div className="rounded-md shadow-md overflow-hidden">
+                <img
+                  src=""
+                  alt="landing page"
+                  data-aos="flip-up"
+                  data-aos-duration="500"
+                  width="w-full"
+                />
+              </div>
+              <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
+                Market Info
+              </h3>
+              <p className="font-medium text-base text-secondary">
+                A simple market web
+              </p>
+              <p>my participations :</p>
+              <ol>
+                <li>Creating web using ReactJS</li>
+                <li>Using fake API to integrate with frontend</li>
+              </ol>
+            </div>
+
+            <div className="mb-12 px-4 md:w-1/2 justify-center">
+              <div className="rounded-md shadow-md overflow-hidden">
+                <img
+                  src="Laundry.png"
+                  alt="landing page"
+                  data-aos="flip-up"
+                  data-aos-duration="500"
+                  width="w-full"
+                />
+              </div>
+              <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
+                Laundry Mart
+              </h3>
+              <p className="font-medium text-base text-secondary">
+                A simple Laundry Website
+              </p>
+              <p>my participations :</p>
+              <ol>
+                <li>Creating web HTML and CSS</li>
+                <li>Making </li>
               </ol>
             </div>
           </div>
